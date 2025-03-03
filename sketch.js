@@ -99,12 +99,12 @@ class Box {
 function preload() {
   // Load the faceMesh model
   faceMesh = ml5.faceMesh(options);
-  uvMapImage1 = loadImage("assets/UV3.png");
-  uvMapImage2 = loadImage("assets/UV2.png");
+  uvMapImage1 = loadImage("/assets/UV3.png");
+  uvMapImage2 = loadImage("/assets/UV2.png");
   
   // 載入掉落物件的圖片
   for (let i = 1; i <= 9; i++) {
-    dropImages.push(loadImage(`assets/drop${i}.png`));
+    dropImages.push(loadImage(`/assets/drop${i}.png`));
   }
 }
 
