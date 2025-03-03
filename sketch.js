@@ -102,10 +102,20 @@ function preload() {
   uvMapImage1 = loadImage("assets/UV3.png");
   uvMapImage2 = loadImage("assets/UV2.png");
   
-  // 載入掉落物件的圖片
-  for (let i = 1; i <= 9; i++) {
-    dropImages.push(loadImage("assets/drop${i}.PNG"));
-  }
+  // // 載入掉落物件的圖片
+  // for (let i = 1; i <= 9; i++) {
+  //   dropImages.push(loadImage(`assets/drop${i}.PNG`));
+  // }
+
+  dropImages.push(loadImage("assets/drop1.PNG"));
+  dropImages.push(loadImage("assets/drop2.PNG"));
+  dropImages.push(loadImage("assets/drop3.PNG"));
+  dropImages.push(loadImage("assets/drop4.PNG"));
+  dropImages.push(loadImage("assets/drop5.PNG"));
+  dropImages.push(loadImage("assets/drop6.PNG"));
+  dropImages.push(loadImage("assets/drop7.PNG"));
+  dropImages.push(loadImage("assets/drop8.PNG"));
+  dropImages.push(loadImage("assets/drop9.PNG"));
 }
 
 function setup() {
