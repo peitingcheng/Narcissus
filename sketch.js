@@ -107,15 +107,15 @@ function preload() {
   //   dropImages.push(loadImage(`assets/drop${i}.PNG`));
   // }
 
-  dropImages.push(loadImage("assets/drop1.PNG"));
-  dropImages.push(loadImage("assets/drop2.PNG"));
-  dropImages.push(loadImage("assets/drop3.PNG"));
-  dropImages.push(loadImage("assets/drop4.PNG"));
-  dropImages.push(loadImage("assets/drop5.PNG"));
-  dropImages.push(loadImage("assets/drop6.PNG"));
-  dropImages.push(loadImage("assets/drop7.PNG"));
-  dropImages.push(loadImage("assets/drop8.PNG"));
-  dropImages.push(loadImage("assets/drop9.PNG"));
+  dropImages.push(loadImage("assets/drop1.png"));
+  dropImages.push(loadImage("assets/drop2.png"));
+  dropImages.push(loadImage("assets/drop3.png"));
+  dropImages.push(loadImage("assets/drop4.png"));
+  dropImages.push(loadImage("assets/drop5.png"));
+  dropImages.push(loadImage("assets/drop6.png"));
+  dropImages.push(loadImage("assets/drop7.png"));
+  dropImages.push(loadImage("assets/drop8.png"));
+  dropImages.push(loadImage("assets/drop9.png"));
 }
 
 function setup() {
