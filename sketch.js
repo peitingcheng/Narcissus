@@ -104,7 +104,7 @@ function preload() {
   
   // 載入掉落物件的圖片
   for (let i = 1; i <= 9; i++) {
-    dropImages.push(loadImage(`assets/drop${i}.PNG`));
+    dropImages.push(loadImage("assets/drop${i}.PNG"));
   }
 }
 
